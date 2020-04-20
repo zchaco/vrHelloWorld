@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-vrHelloWorld-7531.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\vrHelloWorldEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\VRCharacter.cpp.obj"
+"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\vrHelloWorld.cpp.obj"
+"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\vrHelloWorldGameModeBase.cpp.obj"
+"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\VRCharacter.gen.cpp.obj"
+"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\vrHelloWorld.init.gen.cpp.obj"
+"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\vrHelloWorldGameModeBase.gen.cpp.obj"
+"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\Default.rc2.res"
+/OUT:"C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\UE4Editor-vrHelloWorld-7531.lib"
+/INCLUDE:IMPLEMENT_MODULE_vrHelloWorld

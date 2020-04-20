@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "vrHelloWorld Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win32",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Win64",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorld Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorld Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorld",
+				"Android",
+				"Test",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorldEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorldEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"vrHelloWorldEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "vrHelloWorldEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"vrHelloWorldEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		}
+	]
+}

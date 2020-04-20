@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "vrHelloWorld",
+			"Path": "C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\Source\\vrHelloWorld.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "vrHelloWorldEditor",
+			"Path": "C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\Source\\vrHelloWorldEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
