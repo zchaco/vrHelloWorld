@@ -5,7 +5,7 @@
 			"name": "vrHelloWorld (Debug)",
 			"request": "launch",
 			"preLaunchTask": "vrHelloWorld Win64 Debug Build",
-			"program": "C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
@@ -18,7 +18,7 @@
 			"name": "vrHelloWorld (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "vrHelloWorld Win64 DebugGame Build",
-			"program": "C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
@@ -31,7 +31,7 @@
 			"name": "vrHelloWorld (Development)",
 			"request": "launch",
 			"preLaunchTask": "vrHelloWorld Win64 Development Build",
-			"program": "C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\Binaries\\Win64\\UE4.exe",
+			"program": "C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
@@ -44,7 +44,7 @@
 			"name": "vrHelloWorld (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "vrHelloWorld Win64 Shipping Build",
-			"program": "C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
@@ -57,7 +57,7 @@
 			"name": "vrHelloWorld (Test)",
 			"request": "launch",
 			"preLaunchTask": "vrHelloWorld Win64 Test Build",
-			"program": "C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
@@ -72,7 +72,7 @@
 			"preLaunchTask": "vrHelloWorldEditor Win64 Debug Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject"
+				"C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\vrHelloWorld.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
 			"stopAtEntry": false,
@@ -86,7 +86,7 @@
 			"preLaunchTask": "vrHelloWorldEditor Win64 DebugGame Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject"
+				"C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\vrHelloWorld.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
 			"stopAtEntry": false,
@@ -100,7 +100,7 @@
 			"preLaunchTask": "vrHelloWorldEditor Win64 Development Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject"
+				"C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\vrHelloWorld.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
 			"stopAtEntry": false,
@@ -117,7 +117,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"C:\\Users\\Zach's PC\\Documents\\Unreal Projects\\vrHelloWorld\\vrHelloWorld.uproject\"",
+				"-project=\"C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\vrHelloWorld.uproject\"",
 				"-game",
 				"-engine"
 			],

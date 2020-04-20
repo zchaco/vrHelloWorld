@@ -3763,3 +3763,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.20-18.33.12:087][985]LogSlate: WidgetSwitcher ('None') active index changed to 2
 [2020.04.20-18.33.13:779][182]LogSlate: WidgetSwitcher ('None') active index changed to 3
 [2020.04.20-18.33.35:188][278]LogSlate: Window 'New Project' being destroyed
+[2020.04.20-19.19.35:234][841]Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Zach's PC/Repos/vrHelloWorld/vrHelloWorld.uproject" -game -rocket -progress
+[2020.04.20-19.19.36:244][841]Discovering modules, targets and source code for project...
+[2020.04.20-19.19.39:772][841]Binding IntelliSense data...
+[2020.04.20-19.19.42:209][841]Binding IntelliSense data... 100%
+[2020.04.20-19.19.42:209][841]Writing project files...
+[2020.04.20-19.19.42:412][841]Writing project files... 100%

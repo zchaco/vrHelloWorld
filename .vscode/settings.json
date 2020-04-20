@@ -1,7 +1,9 @@
 {
 	"files.exclude": {
-		"C:/Users/Zach's PC/Documents/Unreal Projects/vrHelloWorld/.vscode": true,
-		"C:/Users/Zach's PC/Documents/Unreal Projects/vrHelloWorld/Content": true,
-		"C:/Users/Zach's PC/Documents/Unreal Projects/vrHelloWorld/Intermediate": true
+		"C:/Users/Zach's PC/Repos/vrHelloWorld/.git": true,
+		"C:/Users/Zach's PC/Repos/vrHelloWorld/.vscode": true,
+		"C:/Users/Zach's PC/Repos/vrHelloWorld/Content": true,
+		"C:/Users/Zach's PC/Repos/vrHelloWorld/Intermediate": true,
+		"C:/Users/Zach's PC/Repos/vrHelloWorld/Saved": true
 	}
 }
