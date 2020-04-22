@@ -8,6 +8,7 @@
 
 
 
+
 UCLASS()
 class VRHELLOWORLD_API AVRCharacter : public ACharacter
 {
@@ -28,9 +29,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 private: 
+	bool FindTeleportDestination(FVector &OutLocation);
 	void UpdateDestinationMarker();
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
+
+	void BeginTeleport();
+	void FinishTeleport();
+	void StartFade(float FromAlpha, float ToAlpha);
+	
 	
 private:
 	UPROPERTY(VisibleAnywhere)
@@ -42,8 +49,18 @@ private:
 	UPROPERTY(visibleAnywhere)
 	class UStaticMeshComponent* DestinationMarker;
 
+	
+
 private: 
 
 	UPROPERTY(EditAnywhere)
 	float MaxTeleportDistance = 1000;
+	
+	UPROPERTY(EditAnywhere)
+	float TeleportFadeTime = 1;
+
+	
+	UPROPERTY(EditAnywhere)
+	FVector TeleportProjectionExtent = FVector(100,100,100);
+
 };
