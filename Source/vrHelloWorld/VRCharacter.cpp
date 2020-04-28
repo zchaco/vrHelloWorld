@@ -9,6 +9,9 @@
 #include "TimerManager.h"
 #include "Components/CapsuleComponent.h"
 #include "NavigationSystem.h"
+#include "Components/PostProcessComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
+
 
 
 // Sets default values
@@ -27,6 +30,8 @@ AVRCharacter::AVRCharacter()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
 
+	PostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("PostProcessingComponent"));
+	PostProcessComponent->SetupAttachment(GetRootComponent());
 	
 
 }
@@ -35,7 +40,14 @@ AVRCharacter::AVRCharacter()
 void AVRCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	if (BlinkerMaterialBase != nullptr)
+	{
+		BlinkerMaterialInstance = UMaterialInstanceDynamic::Create(BlinkerMaterialBase, this);
+		PostProcessComponent->AddOrUpdateBlendable(BlinkerMaterialInstance);
+
+		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), BlinkerRadius);
+	}	
 }
 
 // Called every frame
@@ -103,7 +115,10 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
-void AVRCharacter::MoveForward(float throttle){
+void AVRCharacter::MoveForward(float throttle)
+{
+	
+	
 	AddMovementInput(throttle * Camera->GetForwardVector()); 
 }
 

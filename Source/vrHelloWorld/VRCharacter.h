@@ -49,7 +49,11 @@ private:
 	UPROPERTY(visibleAnywhere)
 	class UStaticMeshComponent* DestinationMarker;
 
-	
+	UPROPERTY()
+	class UPostProcessComponent* PostProcessComponent; 
+
+	UPROPERTY()
+	class UMaterialInstanceDynamic* BlinkerMaterialInstance; 	
 
 private: 
 
@@ -59,8 +63,13 @@ private:
 	UPROPERTY(EditAnywhere)
 	float TeleportFadeTime = 1;
 
-	
 	UPROPERTY(EditAnywhere)
 	FVector TeleportProjectionExtent = FVector(100,100,100);
+
+	UPROPERTY(EditAnywhere)
+	float BlinkerRadius = 0.25;
+
+	UPROPERTY(EditAnywhere)
+	class UMaterialInterface* BlinkerMaterialBase;
 
 };
