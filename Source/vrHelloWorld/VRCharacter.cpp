@@ -70,7 +70,7 @@ bool AVRCharacter::FindTeleportDestination(FVector &OutLocation)
 
 	if(!bOnNavMesh) return false;
 	
-	OutLocation = NavLocation.Location;
+		OutLocation = NavLocation.Location;
 	return true;
 }
 

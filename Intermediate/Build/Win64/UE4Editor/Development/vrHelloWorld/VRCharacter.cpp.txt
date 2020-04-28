@@ -1,10 +1,10 @@
-C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\Definitions.vrHelloWorld.h
-C:\Users\Zach's PC\Repos\vrHelloWorld\Source\vrHelloWorld\VRCharacter.h
+C:\Users\Zach\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Development\vrHelloWorld\Definitions.vrHelloWorld.h
+C:\Users\Zach\Repos\vrHelloWorld\Source\vrHelloWorld\VRCharacter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Zach's PC\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Inc\vrHelloWorld\VRCharacter.generated.h
+C:\Users\Zach\Repos\vrHelloWorld\Intermediate\Build\Win64\UE4Editor\Inc\vrHelloWorld\VRCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

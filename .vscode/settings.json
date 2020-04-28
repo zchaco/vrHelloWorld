@@ -1,9 +1,9 @@
 {
 	"files.exclude": {
-		"C:/Users/Zach's PC/Repos/vrHelloWorld/.git": true,
-		"C:/Users/Zach's PC/Repos/vrHelloWorld/.vscode": true,
-		"C:/Users/Zach's PC/Repos/vrHelloWorld/Content": true,
-		"C:/Users/Zach's PC/Repos/vrHelloWorld/Intermediate": true,
-		"C:/Users/Zach's PC/Repos/vrHelloWorld/Saved": true
+		"C:/Users/Zach/Repos/vrHelloWorld/.git": true,
+		"C:/Users/Zach/Repos/vrHelloWorld/.vscode": true,
+		"C:/Users/Zach/Repos/vrHelloWorld/Content": true,
+		"C:/Users/Zach/Repos/vrHelloWorld/Intermediate": true,
+		"C:/Users/Zach/Repos/vrHelloWorld/Saved": true
 	}
 }

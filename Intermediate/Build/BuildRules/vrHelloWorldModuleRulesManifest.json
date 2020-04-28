@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\Source\\vrHelloWorld\\vrHelloWorld.Build.cs",
-		"C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\Source\\vrHelloWorld.Target.cs",
-		"C:\\Users\\Zach's PC\\Repos\\vrHelloWorld\\Source\\vrHelloWorldEditor.Target.cs"
+		"C:\\Users\\Zach\\Repos\\vrHelloWorld\\Source\\vrHelloWorld\\vrHelloWorld.Build.cs",
+		"C:\\Users\\Zach\\Repos\\vrHelloWorld\\Source\\vrHelloWorld.Target.cs",
+		"C:\\Users\\Zach\\Repos\\vrHelloWorld\\Source\\vrHelloWorldEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
