@@ -33,10 +33,14 @@ private:
 	void UpdateDestinationMarker();
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
+	void UpdateBlinkers();
+	FVector2D GetBlinkerCenter();
 
 	void BeginTeleport();
 	void FinishTeleport();
 	void StartFade(float FromAlpha, float ToAlpha);
+
+	
 	
 	
 private:
@@ -71,5 +75,8 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	class UMaterialInterface* BlinkerMaterialBase;
+
+	UPROPERTY(EditAnywhere)
+	class UCurveFloat* RadiusVsVelocity;
 
 };

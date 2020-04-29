@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodevrHelloWorld_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA729EC42,
+				0x1487B360,
 				0xCF1A7039,
 				METADATA_PARAMS(nullptr, 0)
 			};

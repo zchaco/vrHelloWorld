@@ -68,7 +68,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 	FORCEINLINE static uint32 __PPO__TeleportFadeTime() { return STRUCT_OFFSET(AVRCharacter, TeleportFadeTime); } \
 	FORCEINLINE static uint32 __PPO__TeleportProjectionExtent() { return STRUCT_OFFSET(AVRCharacter, TeleportProjectionExtent); } \
 	FORCEINLINE static uint32 __PPO__BlinkerRadius() { return STRUCT_OFFSET(AVRCharacter, BlinkerRadius); } \
-	FORCEINLINE static uint32 __PPO__BlinkerMaterialBase() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialBase); }
+	FORCEINLINE static uint32 __PPO__BlinkerMaterialBase() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialBase); } \
+	FORCEINLINE static uint32 __PPO__RadiusVsVelocity() { return STRUCT_OFFSET(AVRCharacter, RadiusVsVelocity); }
 
 
 #define vrHelloWorld_Source_vrHelloWorld_VRCharacter_h_12_PROLOG
